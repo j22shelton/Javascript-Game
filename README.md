@@ -14,3 +14,5 @@ Basic Practice
 * The user's answer is checked against the correct answer
 
 * Finally an alert tells them if they are right or wrong.
+
+![Image 9-10-19 at 8 55 PM](https://user-images.githubusercontent.com/47063288/64660227-5c513500-d40d-11e9-97e6-9acc735df44e.jpg)
