@@ -4,11 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Question Game</title>
+  <meta name="viewport"  content="width-device-width, initial-scale-1">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <h1>Question Game!</h1>
+<div class="container">
+
+  <h2>Question Game!</h2>
 
   <p id="score"></p>
   <p id="question"></p>
@@ -20,11 +24,12 @@
 
     // The array of questions for our quiz game.
     var questions = [
-      { q: "The Valley of the Kings is located in Egypt", a: "t" },
-      { q: "Brazil is the largest country in South America", a: "t" },
-      { q: "There are many volcanoes located near France", a: "f" },
-      { q: "The Euro Tunnel links England with Japan", a: "f" },
-      { q: "In Norway, A fjord is another word for a glacier", a: "f" }
+    
+      { q: "The Valley of the Kings is located in Egypt, true or false?", a: "t" },
+      { q: "Brazil is the largest country in South America, true or false?", a: "t" },
+      { q: "There are many volcanoes located near France, true or false?", a: "f" },
+      { q: "The Euro Tunnel links England with Japan, true or false?", a: "f" },
+      { q: "In Norway, A fjord is another word for a glacier, true or false?", a: "f" }
     ];
 
     // We start the game with a score of 0.
@@ -96,6 +101,8 @@
     };
 
   </script>
+
+</div>
 
 </body>
 

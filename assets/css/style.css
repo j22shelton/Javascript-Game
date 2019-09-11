@@ -1,0 +1,11 @@
+
+ .container {
+    width: 100%;
+    background-color: rgb(86, 196, 196);
+    text-align: center;
+ }
+
+ body {
+     background-color: aquamarine;
+     font-size: 22px;
+ }
